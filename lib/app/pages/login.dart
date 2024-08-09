@@ -1,7 +1,9 @@
+import 'package:app_turismo/app/pages/integrado_1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 
 class Login extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -72,7 +74,9 @@ class Login extends StatelessWidget {
             SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context, '/integrado_1');
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => Integrado_1())
+                );
               },
               child: Text(
                 'Entrar',

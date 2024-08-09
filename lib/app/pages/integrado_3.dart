@@ -1,35 +1,33 @@
-import 'package:app_turismo/app/pages/integrado_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Integrado_1 extends StatelessWidget{
+class Integrado_3 extends StatelessWidget{
   Widget build( BuildContext context){
     return Scaffold(
       body: Stack(
         children: [
           Column(
             children: [
-              Image.asset('assets/images/integrado-1.png'),
+              Image.asset('assets/images/integrado-3.png'),
               Align(
                 alignment: Alignment.bottomCenter,
                 child: Container(
-                  padding: EdgeInsets.only(top: 30, left: 80, right: 30),
+                  padding: EdgeInsets.only(top: 30, left: 60, right: 40),
                   child: Row(
                     children: [
                       RichText(
                         text: TextSpan(
                           style: DefaultTextStyle.of(context).style,
                           children: [
-                            TextSpan(
-                              
-                              text: 'A vida é curta é o \n mundo é ',
+                            TextSpan(                            
+                              text: 'As pessoas não fazem\n   viagens, as viagens \n      levam ',
                               style: GoogleFonts.cambo(fontSize: 25, fontWeight: FontWeight.w500, color: Colors.black,
-                              decoration: TextDecoration.none)
+                              decoration: TextDecoration.none),
                             ),
                             TextSpan(
-                              text: 'VASTO',
+                              text: 'PESSOAS',
                               style: GoogleFonts.cambo(fontSize: 25, fontWeight: FontWeight.w500, color: Colors.orange,
                                decoration: TextDecoration.none)
                             )
@@ -47,7 +45,7 @@ class Integrado_1 extends StatelessWidget{
                 padding: EdgeInsets.only(left: 30, right: 30),
                 child: Row(
                   children: [
-                    Expanded(child:Text('Na Friends tours and travel, personalizamos passeios educacionais confiáveis e confiáveis para destinos em todo o mundo.',
+                    Expanded(child:Text('Para aproveitar ao máximo sua aventura você só precisa sair e ir para onde quiser. estamos esperando por você.',
                 style: GoogleFonts.aBeeZee(fontSize: 15, color: const Color.fromARGB(255, 100, 99, 99),
                  ),
                  textAlign: TextAlign.center,),)
@@ -59,12 +57,8 @@ class Integrado_1 extends StatelessWidget{
                 alignment: Alignment.center,
                 child: Container(
                   padding: EdgeInsets.only(top: 20),
-                  child: ElevatedButton(onPressed: (){
-                     Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => Integrado_2())
-                );
-                  }, 
-                  child: Text('Iniciar',
+                  child: ElevatedButton(onPressed: (){}, 
+                  child: Text('Próximo',
                   style: GoogleFonts.aBeeZee(fontSize: 15),),
                   style: ElevatedButton.styleFrom(
                   minimumSize: Size(320, 50),

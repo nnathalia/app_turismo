@@ -1,4 +1,6 @@
 import 'package:app_turismo/app/pages/integrado_1.dart';
+import 'package:app_turismo/app/pages/integrado_2.dart';
+import 'package:app_turismo/app/pages/integrado_3.dart';
 import 'package:flutter/material.dart';
 import 'app/pages/login.dart';
 import 'app/pages/integrado_1.dart';
@@ -26,6 +28,8 @@ class Principal extends StatelessWidget{
         '/principal': (context)=> Principal(),
         '/login': (context)=> Login(),
         '/integrado_1': (context)=> Integrado_1(),
+        '/integrado_2': (context)=> Integrado_2(),
+        '/integrado_3': (context)=> Integrado_3()
 
       },
       initialRoute: '/login',
