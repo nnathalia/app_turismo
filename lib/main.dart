@@ -1,6 +1,10 @@
+import 'package:app_turismo/app/pages/home.dart';
 import 'package:app_turismo/app/pages/integrado_1.dart';
 import 'package:app_turismo/app/pages/integrado_2.dart';
 import 'package:app_turismo/app/pages/integrado_3.dart';
+import 'package:app_turismo/app/pages/mensagens.dart';
+import 'package:app_turismo/app/pages/menu_page.dart';
+import 'package:app_turismo/app/pages/perfil.dart';
 import 'package:flutter/material.dart';
 import 'app/pages/login.dart';
 import 'app/pages/integrado_1.dart';
@@ -29,10 +33,13 @@ class Principal extends StatelessWidget{
         '/login': (context)=> Login(),
         '/integrado_1': (context)=> Integrado_1(),
         '/integrado_2': (context)=> Integrado_2(),
-        '/integrado_3': (context)=> Integrado_3()
-
+        '/integrado_3': (context)=> Integrado_3(),
+        '/menu_page': (context)=> MenuPage(),
+        '/home': (context)=> Home(),
+        '/perfil': (context)=> Perfil(),
+        '/mensagens': (context)=> Mensagens()
       },
-      initialRoute: '/login',
+      initialRoute: '/menu_page',
     );
   }
 }

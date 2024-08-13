@@ -1,3 +1,4 @@
+import 'package:app_turismo/app/pages/menu_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -57,7 +58,10 @@ class Integrado_3 extends StatelessWidget{
                 alignment: Alignment.center,
                 child: Container(
                   padding: EdgeInsets.only(top: 20),
-                  child: ElevatedButton(onPressed: (){}, 
+                  child: ElevatedButton(onPressed: (){
+                    Navigator.push(context, 
+                    MaterialPageRoute(builder: (context) => MenuPage()));
+                  }, 
                   child: Text('Próximo',
                   style: GoogleFonts.aBeeZee(fontSize: 15),),
                   style: ElevatedButton.styleFrom(
