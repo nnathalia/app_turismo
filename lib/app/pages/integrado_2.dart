@@ -1,3 +1,4 @@
+import 'package:app_turismo/app/pages/integrado_3.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -59,7 +60,7 @@ class Integrado_2 extends StatelessWidget{
                   padding: EdgeInsets.only(top: 20),
                   child: ElevatedButton(onPressed: (){
                     Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => Integrado_2()));
+                  MaterialPageRoute(builder: (context) => Integrado_3()));
                   },
                   child: Text('Próximo',
                   style: GoogleFonts.aBeeZee(fontSize: 15),),

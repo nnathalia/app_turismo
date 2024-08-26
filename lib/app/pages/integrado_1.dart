@@ -62,7 +62,7 @@ class Integrado_1 extends StatelessWidget{
                   padding: EdgeInsets.only(top: 20),
                   child: ElevatedButton(onPressed: (){
                      Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => Integrado_3())
+                  MaterialPageRoute(builder: (context) => Integrado_2())
                 );
                   }, 
                   child: Text('Iniciar',

@@ -2,6 +2,7 @@ import 'package:app_turismo/app/pages/home.dart';
 import 'package:app_turismo/app/pages/integrado_1.dart';
 import 'package:app_turismo/app/pages/integrado_2.dart';
 import 'package:app_turismo/app/pages/integrado_3.dart';
+import 'package:app_turismo/app/pages/lista_lugares.dart';
 import 'package:app_turismo/app/pages/mensagens.dart';
 import 'package:app_turismo/app/pages/menu_page.dart';
 import 'package:app_turismo/app/pages/perfil.dart';
@@ -37,7 +38,9 @@ class Principal extends StatelessWidget{
         '/menu_page': (context)=> MenuPage(),
         '/home': (context)=> Home(),
         '/perfil': (context)=> Perfil(),
-        '/mensagens': (context)=> Mensagens()
+        '/mensagens': (context)=> Mensagens(),
+        '/lista_lugares': (context)=> ListaLugares()
+        //'/lista_lugares': (context) => ListaLugares(),
       },
       initialRoute: '/menu_page',
     );
