@@ -73,6 +73,11 @@ flutter:
   - 'assets/images/egito.png'
   - 'assets/images/brasil.png'
   - 'assets/images/bastola.png'
+  - 'assets/images/contato-1.png'
+  - 'assets/images/contato-2.png'
+  - 'assets/images/contato-3.png'
+  - 'assets/images/contato-4.png'
+  - 'assets/images/contato-5.png'
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -40,9 +40,8 @@ class Principal extends StatelessWidget{
         '/perfil': (context)=> Perfil(),
         '/mensagens': (context)=> Mensagens(),
         '/lista_lugares': (context)=> ListaLugares()
-        //'/lista_lugares': (context) => ListaLugares(),
       },
-      initialRoute: '/menu_page',
+      initialRoute: '/login',
     );
   }
 }
